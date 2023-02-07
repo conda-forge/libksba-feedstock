@@ -25,6 +25,8 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - gnuconfig  # [unix]
+    - make  # [unix]
   host:
     - libgpg-error
 

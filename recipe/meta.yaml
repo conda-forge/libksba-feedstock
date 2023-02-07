@@ -13,10 +13,6 @@ source:
 
 build:
   number: 1001
-  script:
-    - ./configure --prefix=$PREFIX
-    - make
-    - make install
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('libksba', max_pin='x.x') }}

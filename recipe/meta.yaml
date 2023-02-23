@@ -24,7 +24,7 @@ requirements:
     - gnuconfig  # [unix]
     - make  # [unix]
   host:
-    - libgpg-error <1.43
+    - libgpg-error
 
 test:
   commands:

@@ -34,7 +34,7 @@ test:
 about:
   home: https://www.gnupg.org/software/libksba/index.html
   summary: Libksba is a library to make the tasks of working with X.509 certificates
-  license: LGPL-3-or-later
+  license: LGPL-3.0-or-later
   license_family: GPL
   license_file: COPYING
   description: |

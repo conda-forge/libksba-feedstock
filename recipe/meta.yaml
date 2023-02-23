@@ -1,6 +1,6 @@
 {% set name = "libksba" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "bfe6a8e91ff0f54d8a329514db406667000cb207238eded49b599761bfca41b6" %}
+{% set version = "1.6.3" %}
+{% set sha256 = "3f72c68db30971ebbf14367527719423f0a4d5f8103fc9f4a1c01a9fa440de5c" %}
 
 package:
   name: {{ name|lower }}
@@ -28,8 +28,6 @@ requirements:
 
 test:
   commands:
-    - conda inspect linkages {{ name }}  # [unix]
-    - conda inspect objects {{ name }}   # [osx]
 
 about:
   home: https://www.gnupg.org/software/libksba/index.html

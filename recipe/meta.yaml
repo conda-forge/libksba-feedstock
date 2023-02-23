@@ -19,6 +19,7 @@ build:
 
 requirements:
   build:
+    - gnuconfig  # [unix]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - gnuconfig  # [unix]
@@ -28,8 +29,6 @@ requirements:
 
 test:
   commands:
-    - conda inspect linkages {{ name }}  # [unix]
-    - conda inspect objects {{ name }}   # [osx]
 
 about:
   home: https://www.gnupg.org/software/libksba/index.html

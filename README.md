@@ -3,7 +3,7 @@ About libksba
 
 Home: https://www.gnupg.org/software/libksba/index.html
 
-Package license: LGPL-3-or-later
+Package license: LGPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libksba-feedstock/blob/main/LICENSE.txt)
 

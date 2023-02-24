@@ -1,6 +1,6 @@
 {% set name = "libksba" %}
-{% set version = "1.5.0" %}
-{% set sha256 = "ae4af129216b2d7fdea0b5bf2a788cd458a79c983bb09a43f4d525cc87aba0ba" %}
+{% set version = "1.6.3" %}
+{% set sha256 = "3f72c68db30971ebbf14367527719423f0a4d5f8103fc9f4a1c01a9fa440de5c" %}
 
 package:
   name: {{ name|lower }}

@@ -1,11 +1,11 @@
-About libksba
-=============
+About libksba-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libksba-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.gnupg.org/software/libksba/index.html
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libksba-feedstock/blob/main/LICENSE.txt)
 
 Summary: Libksba is a library to make the tasks of working with X.509 certificates
 
